@@ -1,7 +1,7 @@
-class AwsSamCli < Formula
+class AwsLambdaBuilders < Formula
   include Language::Python::Virtualenv
 
-  desc "AWS SAM CLI 🐿 is a tool for local development and testing of Serverless applications"
+  desc "AWS Lambda Builders"
   
   homepage "https://github.com/awslabs/aws-lambda-builders/"
   head "https://github.com/awslabs/aws-lambda-builders.git", :branch => "develop"
