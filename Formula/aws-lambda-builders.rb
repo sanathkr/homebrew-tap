@@ -18,6 +18,6 @@ class AwsLambdaBuilders < Formula
   end
 
   test do
-    assert_match "Usage", shell_output("#{bin}/lambda-builders --help")
+    assert_match "Usage", shell_output("#{bin}/lambda-builders <request>")
   end
 end
